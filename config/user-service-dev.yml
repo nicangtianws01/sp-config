@@ -10,7 +10,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
-<<<<<<< HEAD
 management:
   endpoints:
     web:
@@ -21,18 +20,6 @@ rabbitmq:
   port: 15672
   username: admin
   password: admin
-=======
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh
-rabbitmq:
-  host: 127.0.0.1
-  port: 15672
-  username: admin
-  password: admin
->>>>>>> a0b88eabff9260e5a24973928641458ab2411cf9
 ---
 spring:
   profiles: user1
